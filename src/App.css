@@ -1,0 +1,8 @@
+.selector {
+    /* For WebKit browsers (Safari) */
+    -webkit-text-size-adjust: 100%;
+    
+    /* Standard property for Firefox */
+    text-size-adjust: 100%;
+  }
+  
