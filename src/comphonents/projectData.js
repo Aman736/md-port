@@ -1,7 +1,7 @@
-import bingImg from '../assets/projectImg/bingImg.png';
-import mlPro from '../assets/projectImg/mlPro.jpg';
-import curdPro from '../assets/projectImg/curdPro.png';
-import digiPro from '../assets/projectImg/digiPro.png';
+import bingImg from '../assets/projectImg/bingImg.webp';
+import mlPro from '../assets/projectImg/mlPro.webp';
+import curdPro from '../assets/projectImg/curdPro.webp';
+import digiPro from '../assets/projectImg/digiPro.webp';
 
 export const projects = [
     {

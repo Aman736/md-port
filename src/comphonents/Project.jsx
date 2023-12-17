@@ -19,7 +19,7 @@ const Project = () => {
           {
             projects.map((project) => (
                 <a href={project.link} key={project.image} className="md:w-1/2 w-100 p-4" target='_blank' rel='noopener noreferrer'>
-                <div className="flex relative md:h-80">
+                <div className="flex relative md:h-80 wow animate__animated animate__flip">
                     
                     <img key={project.image} alt="gallery"
                     className="absolute inset-0 w-full h-full object-fill"

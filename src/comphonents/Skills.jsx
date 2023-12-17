@@ -33,7 +33,7 @@ const Skills = () => {
 
         <div className="className='w-full grid grid-cols-3 sm:grid-cols-4 gap-4 text-center py-8'">
           {skills.map((skill,index) => (
-            <div key={index} className='shadow-md shadow-[#040c16] bg-green-200 hover:scale-110 duration-300'>
+            <div key={index} className='shadow-md shadow-[#040c16] bg-green-200 hover:scale-110 duration-300 wow animate__animated animate__rubberBand'>
               <p className='my-3 text-xs md:text-lg'>{skill.name}</p>
             </div>
           ))}
