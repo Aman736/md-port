@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/md-port/static/css/main.cbd5698c.css",
+    "main.js": "/md-port/static/js/main.f47e0f8a.js",
+    "static/media/myImgM.webp": "/md-port/static/media/myImgM.a24eace3373e47dc5b11.webp",
+    "static/media/myImg.webp": "/md-port/static/media/myImg.04db1bef9fdc22f68b25.webp",
+    "static/media/mlPro.webp": "/md-port/static/media/mlPro.91caa00481d1f0f2f857.webp",
+    "static/media/curdPro.webp": "/md-port/static/media/curdPro.359731b97c8d903292e4.webp",
+    "static/media/bingImg.webp": "/md-port/static/media/bingImg.42b7f723c210d46ff5ef.webp",
+    "static/media/digiPro.webp": "/md-port/static/media/digiPro.627d174c2386fbb08ae7.webp",
+    "static/media/ImgBack.svg": "/md-port/static/media/ImgBack.a07f14da5f5cafa8fe63aa9dfbbfeab9.svg",
+    "index.html": "/md-port/index.html",
+    "main.cbd5698c.css.map": "/md-port/static/css/main.cbd5698c.css.map",
+    "main.f47e0f8a.js.map": "/md-port/static/js/main.f47e0f8a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cbd5698c.css",
+    "static/js/main.f47e0f8a.js"
+  ]
+}
