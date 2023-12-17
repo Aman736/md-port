@@ -16,7 +16,7 @@ const Nav = () => {
     <div className=' shadow-md w-full fixed top-0 left-0 z-20'>
       <div className=' md:flex items-center text-center justify-between bg-green-4 bg-green-400 py-4 md:px-10 px-7'>
         <div className=' font-extrabold text-white text-2xl cursor-pointer items-center'>
-          <a href='/'>PORTFOLIO</a>
+          PORTFOLIO
         </div>
 
         <div onClick={()=>setOpen(!open)} className=' text-xl absolute right-8 top-6 cursor-pointer md:hidden'>
