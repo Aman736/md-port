@@ -4,7 +4,7 @@ import {ReactComponent as MySvg} from './ImgBack.svg'
 
 const About = () => {
   return (
-<div id='about' className="w-full md:min-h-screen min-h-[50vh] mt-7 tracking-wide">
+<div id='about' className="w-full  mt-7 tracking-wide">
   <div className="flex items-center justify-center">
     <p className="text-4xl font-bold inline mx-auto border-b-4 border-cyan-500 ">
       About
@@ -19,7 +19,7 @@ const About = () => {
       <MySvg className={` absolute md:top-20 top-8 z-[-5] mt-[1rem] scale-110 md:scale-125 group-hover:scale-150 duration-200`}/>
     </div>
     <div className="md:w-1/2 w-full">
-      <p className="md:text-lg sm:text-base break-all wow animate__animated animate__backInRight">
+      <p className="md:text-lg sm:text-base text-justify wow animate__animated animate__backInRight">
       Recently graduated in Computer Science and Engineering, I possess a solid grasp of 
       programming languages, algorithms, and effective problem-solving techniques. 
       My passion lies in software development, and I'm enthusiastic about launching 

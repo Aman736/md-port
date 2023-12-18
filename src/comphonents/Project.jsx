@@ -3,7 +3,7 @@ import { projects } from "./projectData";
 
 const Project = () => {
   return (
-    <div id="projects" className="w-full md:min-h-screen">
+    <div id="projects" className="w-full">
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
         <div className=" w-full flex justify-center items-center flex-col mb-7">
           <p className="text-4xl font-bold inline border-b-4 border-cyan-500 text-center ">
@@ -15,11 +15,11 @@ const Project = () => {
           </p>
         </div>
 
-        <div className="flex flex-wrap ">
+        <div className="flex flex-wrap">
           {
             projects.map((project) => (
                 <a href={project.link} key={project.image} className="md:w-1/2 w-100 p-4" target='_blank' rel='noopener noreferrer'>
-                <div className="flex relative md:h-80 wow animate__animated animate__flip">
+                <div className="flex relative md:h-80 wow animate__animated animate__flip overflow-hidden">
                     
                     <img key={project.image} alt="gallery"
                     className="absolute inset-0 w-full h-full object-fill"

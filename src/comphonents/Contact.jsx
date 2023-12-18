@@ -51,7 +51,7 @@ const Contact = () => {
   }
 
   return (
-    <div id='contact' className='w-full min-h-screen flex flex-col justify-center items-center p-4'>
+    <div id='contact' className='w-full flex flex-col justify-center items-center p-4'>
         <form method='POST' onSubmit={submitHandler} className='flex flex-col md:max-w-[800px] w-full'>
             <div className='pb-8 flex flex-col justify-center w-full h-full items-center'>
                 <p className='text-4xl font-bold inline border-b-4 border-cyan-500'>Contact</p>

@@ -22,20 +22,20 @@ function App() {
   return (
     <div className="">
       <Nav />
-      <div className="md:mt-[45px] mt-[65px] mb-5 h-full max-w-[1200px] mx-auto ">
-        <div id="HOME">
+      <div className="md:mt-[45px] mt-[65px] mb-5 h-full max-w-[1200px] mx-auto min-h-screen">
+        <div id="HOME" className="md:mb-[150px] mb-[30px]">
           <Home />
         </div>
 
-        <div id="ABOUT">
+        <div id="ABOUT" className="md:mb-[150px] mb-[30px]">
           <About />
         </div>
 
-        <div id="SKILLS">
+        <div id="SKILLS" className="md:mb-[150px] mb-[30px]">
           <Skills/>
         </div>
 
-        <div id="PROJECTS">
+        <div id="PROJECTS" className="md:mb-[150px] mb-[30px]">
           <Project/>
         </div>
 
